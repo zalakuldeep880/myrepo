@@ -1,0 +1,32 @@
+{
+  "name": "BOT",
+  "description": "Bot For TG",
+    "keywords": [
+    "telegram",
+    "userbot",
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/",
+  "website": "https://github.com/",
+  "success_url": "https://t.me/",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Enter Bot Token",
+      "value": ""
+    },
+    "API_ID": {
+      "description": "Enter Api Id",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Enter Api Hash",
+      "value": ""
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+  }]
+}
